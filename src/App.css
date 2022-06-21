@@ -1,0 +1,132 @@
+
+*{
+
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.App{
+  margin: 1rem;
+
+}
+
+.container {
+
+  text-align: start;
+  border: 1px solid #a5a5a5;
+  margin-bottom:0.5rem;
+  padding: 3rem 2rem;
+  padding-top: 0.5rem;
+}
+.App span{
+
+  font-size:2vw;
+  font-weight:500;
+}
+h3{
+
+  font-size:2vw;
+}
+
+@media (width<600px){
+  .App span{
+
+    font-size:3vw;
+    font-weight:500;
+  }
+ 
+ 
+ 
+  h3{
+  
+    font-size:3vw;
+  }
+
+    
+
+}
+
+.label p{
+margin:0;
+font-weight: 400;
+
+}
+
+.labels{
+width:40vw;
+display:grid;
+grid-template-columns: 
+2fr 1fr 1fr;
+grid-template-rows:auto;
+font-size:2vw;
+row-gap:1rem;
+column-gap:6.5rem;
+}
+
+
+.button{
+display:flex;
+justify-content:center;
+
+}
+
+button{
+height:2.5rem;
+width:9rem;
+border:none;
+border-radius:0.35rem;
+background-color: #0057d8;
+color: #f0f5fd;
+cursor:pointer;
+transition:0.7s;
+}
+
+button:hover{
+  opacity:90%;
+}
+
+.chart{
+display:flex;
+align-content:center;
+margin-top:3rem;
+
+}
+
+#myChart1{
+  border:2px solid #ddad32;
+  border-top-left-radius:.25rem .25rem;
+  border-bottom-left-radius:.25rem .25rem;
+  border-right:none;
+  width: 20rem;
+}
+
+#myChart2{
+  
+  border:2px solid #b3b9c5;
+  border-right:none;
+  width: 50rem;
+}
+
+#myChart3{
+  border:2px solid #ebb5b3;
+  border-right:none;
+  width: 30rem;
+}
+
+#myChart4{
+  border:2px solid #c4ddbe;
+  border-right:none;
+  width: 120rem;
+}
+#myChart5{
+  border:2px solid #f7e6b4;
+  border-right:none;
+  width: 20rem;
+}
+#myChart6{
+  border:2px solid #d2c1da;
+  border-top-right-radius:.25rem .25rem;
+  border-bottom-right-radius:.25rem .25rem;
+  width: 60rem;
+}
+
